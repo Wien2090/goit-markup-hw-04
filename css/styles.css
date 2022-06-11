@@ -370,7 +370,8 @@ address {
 /* --------СОЦСЕТИ--------- */
 .soc-list {
   display: flex;
-  justify-content: center;
+
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -379,7 +380,7 @@ address {
   height: 44px;
   margin-right: 10px;
   border-radius: 50%;
-  background-color: yellow;
+  background-color: #ffffff;
 }
 
 .soc-item:last-child {
