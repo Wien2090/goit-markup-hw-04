@@ -330,19 +330,9 @@ address {
   color: var(--color-text);
 }
 
-/* -----------НОВА СЕКЦІЯ Постоянные клиенты------------------- */
-
-.studio-hb {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-/* ------------------------------------------------------------- */
-
 .studio-hd {
+  display: block;
+  margin-top: 94px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -370,24 +360,97 @@ address {
 /* --------СОЦСЕТИ--------- */
 .soc-list {
   display: flex;
-
-  /* justify-content: center; */
-  align-items: center;
+  justify-content: center;
 }
 
 .soc-item {
   width: 44px;
   height: 44px;
   margin-right: 10px;
-  border-radius: 50%;
-  background-color: #ffffff;
 }
 
 .soc-item:last-child {
   margin-right: 0px;
 }
 
+.soc-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.soc-icon {
+  fill: #afb1b8;
+}
+
+.soc-link:hover,
+.soc-link:focus {
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+.soc-link:hover .soc-icon,
+.soc-link:focus .soc-icon {
+  fill: #ffffff;
+}
 /* ------------------------ */
+/* --------Нова секція -ПАРТНЕРИ------------ */
+.studio-hb {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.partnters-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+
+.partnters-item {
+  width: 170px;
+  height: 92px;
+  margin-right: 30px;
+}
+
+.partnters-item:last-child {
+  margin-right: 0px;
+}
+
+.partnters-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.partnters-icon {
+  fill: #afb1b8;
+}
+
+.partnters-link:hover,
+.partnters-link:focus {
+  border: 1px solid #2196f3;
+  cursor: pointer;
+}
+
+.partnters-link:hover .partnters-icon,
+.partnters-link:focus .partnters-icon {
+  fill: #2196f3;
+}
+
+/* --------Кінець секціїї ПАРТНЕРИ------- */
 
 .studio-work {
   font-weight: 400;
@@ -486,6 +549,64 @@ address {
   color: rgba(255, 255, 255, 0.6);
 }
 
+/* -----------ПОЧАТОК--ФУТЕР СОЦ СЕТИ----------- */
+
+.footer-soc-goin {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-goin {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-soc-list {
+  display: flex;
+  justify-content: normal;
+}
+
+.footer-soc-item {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+
+.footer-soc-item:last-child {
+  margin-right: 0px;
+}
+
+.footer-soc-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-soc-icon {
+  fill: #ffffff;
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+.footer-soc-link:hover .footer-soc-icon,
+.footer-soc-link:focus .footer-soc-icon {
+  fill: #ffffff;
+}
+
+/* ---------------КИНЕЦЬ ФУТЕР СОЦ СЕТИ------------ */
+
 .portfolio-oborder {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
@@ -527,3 +648,4 @@ address {
   --indent: 30px;
 }
 /* -----ФІНІШ ЗМІННІ----- */
+/* -------КАРТИНКИ ЧЕМ ЗАЙМАЄМСЯ--------- */
