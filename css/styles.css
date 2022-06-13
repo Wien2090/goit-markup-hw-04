@@ -160,7 +160,6 @@ address {
 
 /* ------СТАРТ ФУТЕР------ */
 .footer {
-  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -240,6 +239,25 @@ address {
   line-height: 1.15;
   letter-spacing: 0.02em;
 }
+
+/* -----------SVG В ХЕДЕРЕ-------- */
+
+.heder-soc-icon {
+  fill: rgba(117, 117, 117, 1);
+}
+
+.soc-link:hover,
+.soc-link:focus {
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+.contakt-link:hover .heder-soc-icon,
+.contakt-link:focus .heder-soc-icon {
+  fill: #2196f3;
+}
+
+/* --------------Кінець SVG В ХЕДЕРЕ-------- */
 
 .footer-contakt-link .contakt-links {
   color: var(--color-text);
@@ -551,12 +569,18 @@ address {
 
 /* -----------ПОЧАТОК--ФУТЕР СОЦ СЕТИ----------- */
 
-.footer-soc-goin {
+.footer-container {
   display: flex;
-  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.goin {
+  margin-left: 156px;
 }
 
 .footer-goin {
+  display: block;
+  margin-left: 40px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -581,6 +605,7 @@ address {
 }
 
 .footer-soc-link {
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -648,4 +673,21 @@ address {
   --indent: 30px;
 }
 /* -----ФІНІШ ЗМІННІ----- */
-/* -------КАРТИНКИ ЧЕМ ЗАЙМАЄМСЯ--------- */
+/* -------КАРТИНКИ SVG чем займаємс--------- */
+
+.directions-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.directions-icon {
+  fill: #afb1b8;
+}
+
+/* -----Фініш-картинки SVG чем займаємс------ */

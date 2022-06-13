@@ -45,12 +45,21 @@
 
         <ul class="heder-contakt-link list">
           <li class="header-contact-item">
-            <a href="mailto:info@devstudio.com" class="contakt-link link"
-              >info@devstudio.com</a
+            <a href="mailto:info@devstudio.com" class="contakt-link link">
+              <svg class="heder-soc-icon" width="16" , height="12">
+                <use xlink:href="./images/icons.svg#icon-convert-heder"></use>
+              </svg>
+
+              info@devstudio.com</a
             >
           </li>
           <li class="header-contact-item">
             <a href="tel:+380961111111" class="contakt-link link">
+              <svg class="heder-soc-icon" width="10" , height="16">
+                <use
+                  xlink:href="./images/icons.svg#icon-smartphone-heder"
+                ></use>
+              </svg>
               +38 096 111 11 11</a
             >
           </li>
@@ -71,39 +80,13 @@
 
       <section class="section benefits">
         <div class="container">
-          <ul class="partnters-list">
-            <li class="partnters-item list">
-              <a href="#" class="partnters-link">
-                <svg class="partnters-icon" width="67" , height="70">
-                  <use xlink:href="./images/icons.svg#icon-antena"></use>
-                </svg>
-              </a>
-            </li>
-
-            <li class="partnters-item list">
-              <a href="#" class="partnters-link">
-                <svg class="partnters-icon" width="67" , height="70">
-                  <use xlink:href="./images/icons.svg#icon-vremiy"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="partnters-item list">
-              <a href="#" class="partnters-link">
-                <svg class="partnters-icon" width="67" , height="70">
-                  <use xlink:href="./images/icons.svg#icon-diagrama"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="partnters-item list">
-              <a href="#" class="partnters-link">
-                <svg class="partnters-icon" width="67" , height="70">
-                  <use xlink:href="./images/icons.svg#icon-astronaut"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
           <ul class="benefits-list card-set list">
             <li class="card-set-item">
+              <a href="#" class="directions-link">
+                <svg class="directions-icon" width="65" , height="70">
+                  <use xlink:href="./images/icons.svg#icon-antenn"></use>
+                </svg>
+              </a>
               <h3 class="studio-hc">Внимание к деталям</h3>
               <p class="studio-p">
                 Идейные соображения, а также начало повседневной работы по
@@ -111,6 +94,11 @@
               </p>
             </li>
             <li class="card-set-item">
+              <a href="#" class="directions-link">
+                <svg class="directions-icon" width="67" , height="70">
+                  <use xlink:href="./images/icons.svg#icon-clocky"></use>
+                </svg>
+              </a>
               <h3 class="studio-hc">Пунктуальность</h3>
               <p class="studio-p">
                 Задача организации, в особенности же рамки и место обучения
@@ -118,6 +106,11 @@
               </p>
             </li>
             <li class="card-set-item">
+              <a href="#" class="directions-link">
+                <svg class="directions-icon" width="70" , height="54">
+                  <use xlink:href="./images/icons.svg#icon-diagrama"></use>
+                </svg>
+              </a>
               <h3 class="studio-hc">Планирование</h3>
               <p class="studio-p">
                 Равным образом консультация с широким активом в значительной
@@ -125,6 +118,11 @@
               </p>
             </li>
             <li class="card-set-item">
+              <a href="#" class="directions-link">
+                <svg class="directions-icon" width="55" , height="61">
+                  <use xlink:href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </a>
               <h3 class="studio-hc">Современные технологии</h3>
               <p class="studio-p">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -431,76 +429,71 @@
 
     <!--Footer (Адрес и телефон)-->
     <footer class="background-a footer">
-      <div class="container">
-        <a href="#" class="logo list link"
-          >Web<span class="studio-white">Studio</span></a
-        >
-        <address class="address">
-          <ul class="footer-contakt-link list link">
-            <li class="footer-item footer-street">
-              г. Киев, пр-т Леси Украинки, 26
+      <div class="container footer-container">
+        <div>
+          <a href="#" class="logo list link"
+            >Web<span class="studio-white">Studio</span></a
+          >
+          <address class="address">
+            <ul class="footer-contakt-link list link">
+              <li class="footer-item footer-street">
+                г. Киев, пр-т Леси Украинки, 26
+              </li>
+              <li class="footer-item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="contakt-links list link footer-link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="footer-item">
+                <a
+                  href="tel:+380961111111"
+                  class="contakt-links list link footer-link"
+                >
+                  +38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <!-- ---------------СОЦСЕТИ----------- -->
+        <div class="goin">
+          <h2 class="footer-goin">присоединяйтесь</h2>
+          <ul class="footer-soc-list">
+            <li class="footer-soc-item list">
+              <a href="#" class="footer-soc-link">
+                <svg class="footer-soc-icon" width="20" , height="20">
+                  <use xlink:href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-item">
-              <a
-                href="mailto:info@devstudio.com"
-                class="contakt-links list link footer-link"
-                >info@devstudio.com</a
-              >
+            <li class="footer-soc-item list">
+              <a href="#" class="footer-soc-link">
+                <svg class="footer-soc-icon" width="20" , height="20">
+                  <use xlink:href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-item">
-              <a
-                href="tel:+380961111111"
-                class="contakt-links list link footer-link"
-              >
-                +38 096 111 11 11</a
-              >
+            <li class="footer-soc-item list">
+              <a href="#" class="footer-soc-link">
+                <svg class="footer-soc-icon" width="20" , height="20">
+                  <use xlink:href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item list">
+              <a href="#" class="footer-soc-link">
+                <svg class="footer-soc-icon" width="20" , height="20">
+                  <use xlink:href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
-     <div class="container">
-      <div class="footer-soc-goin">
-                <h2 class="footer-goin">присоединяйтесь</h2>
-                   <ul class="footer-soc-list">
-                  <li class="footer-soc-item list">
-                    <a href="#" class="footer-soc-link">
-                      <svg class="footer-soc-icon" width="20" , height="20">
-                        <use
-                          xlink:href="./images/icons.svg#icon-instagram"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="footer-soc-item list">
-                    <a href="#" class="footer-soc-link">
-                      <svg class="footer-soc-icon" width="20" , height="20">
-                        <use xlink:href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="footer-soc-item list">
-                    <a href="#" class="footer-soc-link">
-                      <svg class="footer-soc-icon" width="20" , height="20">
-                        <use
-                          xlink:href="./images/icons.svg#icon-facebook"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="footer-soc-item list">
-                    <a href="#" class="footer-soc-link">
-                      <svg class="footer-soc-icon" width="20" , height="20">
-                        <use
-                          xlink:href="./images/icons.svg#icon-linkedin"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            </div>
-</div>
+      <!-- -----------------КІНЕЦЬ СОЦСЕТИ---------------- -->
     </footer>
   </body>
 </html>
