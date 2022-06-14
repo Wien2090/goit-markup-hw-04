@@ -229,6 +229,8 @@ address {
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
 }
 
 .heder-contakt-link .contakt-link:hover,
@@ -244,12 +246,7 @@ address {
 
 .heder-soc-icon {
   fill: rgba(117, 117, 117, 1);
-}
-
-.soc-link:hover,
-.soc-link:focus {
-  background-color: #2196f3;
-  cursor: pointer;
+  margin-right: 10px;
 }
 
 .contakt-link:hover .heder-soc-icon,
@@ -460,7 +457,6 @@ address {
 .partnters-link:hover,
 .partnters-link:focus {
   border: 1px solid #2196f3;
-  cursor: pointer;
 }
 
 .partnters-link:hover .partnters-icon,
@@ -575,18 +571,17 @@ address {
 }
 
 .goin {
-  margin-left: 156px;
+  margin-left: 70px;
 }
 
 .footer-goin {
-  display: block;
-  margin-left: 40px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .footer-soc-list {
@@ -605,7 +600,6 @@ address {
 }
 
 .footer-soc-link {
-  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -691,3 +685,13 @@ address {
 }
 
 /* -----Фініш-картинки SVG чем займаємс------ */
+.minibord:hover,
+.minibord:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.tiam-bord:hover,
+.tiam-bor:focus {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
